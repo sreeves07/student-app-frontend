@@ -14,9 +14,11 @@ What exactly does cors do?
 
 Frontend 
 What tools will we use to build the frontend?
+- We use create-react-app
 When does useEffect fire or not fire? What does an empty dependency array do?
--UseEffect fires when the component first loads. An empty dependecy array ensures the component get rendered again. 
+-UseEffect fires when the component first loads, after that is only fires when the component renders again. An empty dependecy array ensures the callback from the useEffect only fires one time. 
 Can you further explain the difference or benefits of using scss instead of css?
+-SCCS allows you to write more compact code.
 
 # THINGS TO DISCUSS
 What causes a React component to rerender?
